@@ -445,6 +445,14 @@ h4 {
   transition: all 0.3s ease;
 }
 
+.wordpress_image img {
+  transition: filter 0.3s ease;
+}
+
+.wordpress_image img:hover {
+  opacity: 0.8;
+}
+
 .character_images {
   /* width: 250px; */
   display: flex;
