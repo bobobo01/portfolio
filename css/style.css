@@ -87,9 +87,9 @@ header {
 .skill_details {
   /* width: 100%; */
   max-width: 1240px;
-  display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: flex-start;
+  /* display: flex;
+
+  justify-content: flex-start; */
 }
 
 .skill_comment {
@@ -97,14 +97,14 @@ header {
 }
 
 .certificates {
-  width: 120px;
+  max-width: 7%;
   display: flex;
 
   /* flex-basis:1vh; */
   /* flex-basis: 1vh; */
   /* justify-content: start; */
 
-  padding: 0 10px;
+  padding: 15px 0px 5px 0px;
   gap: 10px;
 }
 
@@ -197,7 +197,7 @@ p {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 50%;
+  width: 55%;
   margin: 30px auto 60px auto; /* 上と下は指定、左右をautoで中央寄せ */
   gap: 10px;
 }
@@ -228,7 +228,7 @@ p {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 2fr 1fr;
-  width: 50%; /* 好みの幅を指定（必要に応じて調整） */
+  width: 55%; /* 好みの幅を指定（必要に応じて調整） */
   margin: 30px auto 60px auto; /* 上と下は指定、左右をautoで中央寄せ */
   gap: 10px;
 }
@@ -449,7 +449,7 @@ h4 {
   /* width: 250px; */
   display: flex;
   justify-content: center;
-  margin: 30px auto 60px auto;
+  margin: 50px auto 60px auto;
   column-gap: 100px;
   align-items: flex-end;
 }
@@ -481,10 +481,34 @@ h4 {
   transition: all 0.3s ease;
 }
 
-.coffee_videos {
+.videos_container_one {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.videos_container_two {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.wordpress_discription {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.wordpress_image {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.wordpress_image img {
+  border: 1px solid lightgrey;
+}
+
+/* .coffee_videos {
   padding-top: 10px;
   padding-bottom: 40px;
-}
+} */
 
 /* .coffee_videos {
   display: flex;
@@ -549,7 +573,3 @@ footer {
 img {
   max-width: 100%;
 }
-
-/* dt {
-  float: left;
-} */
